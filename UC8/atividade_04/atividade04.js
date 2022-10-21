@@ -12,7 +12,7 @@ else {
     console.log("Evento lotado não é possívelfazer novos cadastros")
 }
 
-let idade = 18 
+let idade = 17 
 if(idade >= 18){
     console.log("A idade está correta para o cadastro")
 }
