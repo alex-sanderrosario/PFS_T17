@@ -60,6 +60,14 @@ header{
     height: 100%;
 }
 
+.icone-menu{
+    height: 40px;
+}
+
+#barras{
+    display: none;
+
+}
 
 .banner{
     height: 564px;
@@ -301,4 +309,34 @@ footer {
 .siga-nos h2 {
     font-family: 'Titillium Web';
     font-size: 23px;
+}
+
+@media screen and (max-width: 1200px){
+    .conteiner-grid{
+        width: 85vw;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    #barras{
+        display: inline-block;
+    }
+    .menu{
+        display: none;
+        position: absolute;
+        top: 19px;
+        right:0px
+
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+
+        background-color: #1E1C21;
+        height: 400px;
+
+    }
+
+    .cabecalho{
+        position: relative;
+    }
 }
