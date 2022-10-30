@@ -16,7 +16,10 @@ function mostrarMenu($evento){
     else{
         menu.style.display = "none"
     }
+
+    
    
     event.preventDefault();
 
 } 
+

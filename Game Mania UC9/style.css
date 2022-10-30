@@ -47,6 +47,7 @@ header{
     text-decoration: none;
     text-transform: uppercase;
     font-family: "Roboto";
+    
 }
 
 .menu{
@@ -67,6 +68,17 @@ header{
 #barras{
     display: none;
 
+}
+
+.menua{   
+    display: none;    
+}
+
+.menua a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font: "Roboto";
 }
 
 .banner{
@@ -317,15 +329,29 @@ footer {
     }
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1100px){
     #barras{
         display: inline-block;
     }
+  
     .menu{
+        display: none;
+       
+
+    }
+
+    .cabecalho{
+        position: relative;
+    }
+   
+}
+
+@media screen and (max-width: 1100px){
+    .menua{
         display: none;
         position: absolute;
         top: 19px;
-        right:0px
+        left: 150px;
 
         flex-direction: column;
         justify-content: space-around;
@@ -333,10 +359,10 @@ footer {
 
         background-color: #1E1C21;
         height: 400px;
+        width: 200px;
+        
+       
 
     }
-
-    .cabecalho{
-        position: relative;
-    }
+ 
 }
