@@ -83,10 +83,26 @@ header{
 
 .banner{
     height: 564px;
-    background-image: url(img/banner.svg);
+    
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+.banner-gamemania{
+    background-image: url(img/banner.svg);
+}
+
+.banner-f1{
+    background-image: url(img/banner_pilotos.png);
+}
+
+.banner-cs{
+    background-image: url(img/banner_cs.png);
+}
+
+.banner-lol{
+    background-image: url(img/banner_lol.png);
 }
 
 .conteudo-banner a{
@@ -336,10 +352,10 @@ footer {
   
     .menu{
         display: none;
-       
-
     }
 
+
+ 
     .cabecalho{
         position: relative;
     }
@@ -360,9 +376,5 @@ footer {
         background-color: #1E1C21;
         height: 400px;
         width: 200px;
-        
-       
-
-    }
- 
+    }   
 }
