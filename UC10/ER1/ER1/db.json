@@ -1,0 +1,40 @@
+{
+  "noticias": [
+    {
+      "id": 1,
+      "imagem": "assets/img/Cardnews.jpeg",
+      "titulo": "teste",
+      "descrição": "testando o json"
+    },
+    {
+      "id": 2,
+      "imagem": "assets/img/Cardnews.jpeg",
+      "titulo": "teste",
+      "descrição": "testando o json"
+    },
+    {
+      "id": 3,
+      "imagem": "assets/img/Cardnews.jpeg",
+      "titulo": "teste",
+      "descrição": "testando o json"
+    },
+    {
+      "id": 4,
+      "imagem": "assets/img/Cardnews.jpeg",
+      "titulo": "teste",
+      "descrição": "testando o json"
+    },
+    {
+      "imagem": "assets/img/Cardnews.jpeg",
+      "titulo": "Noticia teste API ",
+      "descrição": "Essa noticia foi inserida pelo  Postman",
+      "id": 5
+    },
+    {
+      "imagem": "assets/img/Cardnews.jpeg",
+      "titulo": "Nova noticia teste API ",
+      "descrição": "Essa noticia foi inserida pelo  Postman",
+      "id": 6
+    }
+  ]
+}
