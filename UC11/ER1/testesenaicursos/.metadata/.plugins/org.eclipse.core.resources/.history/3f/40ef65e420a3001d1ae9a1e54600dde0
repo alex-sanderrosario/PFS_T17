@@ -1,0 +1,14 @@
+package testesenaicursos;
+
+import org.junit.Before;
+import org.openqa.selenium.WebDriver;
+
+public class TesteBuscaCursos {
+	private WebDriver driver;
+	
+	@Before
+	public void abrirNavegador() {
+		
+	}
+
+}
