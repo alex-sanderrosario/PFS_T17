@@ -1,0 +1,13 @@
+package testeMania;
+
+import org.openqa.selenium.WebDriver;
+
+public class testeSenhas {
+    private WebDriver driver;
+    @Before
+    public void abrirNavegador() {
+    	System.setProperty("webdriver.chrome", "C:\\Program Files\\chromedriver\\chomedriver.exe");
+    	
+    }
+ 
+}

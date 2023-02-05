@@ -1,0 +1,8 @@
+package testeMania;
+
+import org.openqa.selenium.WebDriver;
+
+public class testeSenhas {
+    private WebDriver driver;
+ 
+}
