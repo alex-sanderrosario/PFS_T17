@@ -1,0 +1,15 @@
+C:\Users\alexs\OneDrive\Área de Trabalho\AulaGit\UC12\SA2\atividade1\bin\Debug\net7.0\atividade1.exe
+C:\Users\alexs\OneDrive\Área de Trabalho\AulaGit\UC12\SA2\atividade1\bin\Debug\net7.0\atividade1.deps.json
+C:\Users\alexs\OneDrive\Área de Trabalho\AulaGit\UC12\SA2\atividade1\bin\Debug\net7.0\atividade1.runtimeconfig.json
+C:\Users\alexs\OneDrive\Área de Trabalho\AulaGit\UC12\SA2\atividade1\bin\Debug\net7.0\atividade1.dll
+C:\Users\alexs\OneDrive\Área de Trabalho\AulaGit\UC12\SA2\atividade1\bin\Debug\net7.0\atividade1.pdb
+C:\Users\alexs\OneDrive\Área de Trabalho\AulaGit\UC12\SA2\atividade1\obj\Debug\net7.0\atividade1.csproj.AssemblyReference.cache
+C:\Users\alexs\OneDrive\Área de Trabalho\AulaGit\UC12\SA2\atividade1\obj\Debug\net7.0\atividade1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexs\OneDrive\Área de Trabalho\AulaGit\UC12\SA2\atividade1\obj\Debug\net7.0\atividade1.AssemblyInfoInputs.cache
+C:\Users\alexs\OneDrive\Área de Trabalho\AulaGit\UC12\SA2\atividade1\obj\Debug\net7.0\atividade1.AssemblyInfo.cs
+C:\Users\alexs\OneDrive\Área de Trabalho\AulaGit\UC12\SA2\atividade1\obj\Debug\net7.0\atividade1.csproj.CoreCompileInputs.cache
+C:\Users\alexs\OneDrive\Área de Trabalho\AulaGit\UC12\SA2\atividade1\obj\Debug\net7.0\atividade1.dll
+C:\Users\alexs\OneDrive\Área de Trabalho\AulaGit\UC12\SA2\atividade1\obj\Debug\net7.0\refint\atividade1.dll
+C:\Users\alexs\OneDrive\Área de Trabalho\AulaGit\UC12\SA2\atividade1\obj\Debug\net7.0\atividade1.pdb
+C:\Users\alexs\OneDrive\Área de Trabalho\AulaGit\UC12\SA2\atividade1\obj\Debug\net7.0\atividade1.genruntimeconfig.cache
+C:\Users\alexs\OneDrive\Área de Trabalho\AulaGit\UC12\SA2\atividade1\obj\Debug\net7.0\ref\atividade1.dll
