@@ -81,15 +81,16 @@ Console.WriteLine(@$"
     Nome: {novaPf.nome}
     Data de Nascimento: {novaPf.dataNascimento}
     Cpf: {novaPf.cpf}
-    Rendimento: {novaPf.rendimento}
+    Rendimento: {(novaPf.rendimento).ToString("C")}
     Logradouro: {novaPf.endereco.logradouro}
     Numero: {novaPf.endereco.numero}
     Complemento: {novaPf.endereco.complemento}
-    Endereço Comercial? {novaPf.endereco.endComercial}]
-    Maior de idade? {metodoPf.ValidarDataNascimento(novaPf.dataNascimento)}
+    Endereço Comercial? {((bool)novaPf.endereco.endComercial? "Sim": "Não")}
+    Maior de idade? {(metodoPf.ValidarDataNascimento(novaPf.dataNascimento)? "Sim": "Não" )}
+    Taxa de Imposto a ser paga é: {metodoPf.PagarImposto(novaPf.rendimento).ToString("C")}
     ");
 
-    Console.WriteLine($"Aperte ´Enter` para continuar...");
+    Console.WriteLine($"Aperte 'Enter' para continuar...");
     Console.ReadLine();
 
     break;
@@ -117,14 +118,15 @@ Console.WriteLine(@$"
     Nome: {novaPj.nome}
     Razao Social: {novaPj.razaoSocial}
     Cnpj: {novaPj.cnpj}
-    Rendimento: {novaPj.rendimento}
+    Rendimento: {(novaPj.rendimento).ToString("C")}
     Logradouro: {novaPj.endereco.logradouro}
     Numero: {novaPj.endereco.numero}
     Complemento: {novaPj.endereco.complemento}
-    Endereço Comercial? {novaPj.endereco.endComercial}]
-    CNPJ é valido? {metodoPj.ValidarCnpj(novaPj.cnpj)}
+    Endereço Comercial? {((bool)novaPj.endereco.endComercial? "Sim": "Não")}
+    CNPJ é valido? {(metodoPj.ValidarCnpj(novaPj.cnpj)? "Sim": "Não")}
+    Taxa de Imposto a ser paga é: {metodoPj.PagarImposto(novaPj.rendimento).ToString("C")}
     ");
-    Console.WriteLine($"Aperte `Enter´ para continuar...");
+    Console.WriteLine($"Aperte 'Enter' para continuar...");
     Console.ReadLine();
     break;
 

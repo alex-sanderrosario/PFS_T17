@@ -11,7 +11,34 @@ namespace atividade1_SP2.Classes
 
         public override float PagarImposto(float rendimento)
         {
-            throw new NotImplementedException();
+            /*
+               Rendimenttos até 3000 vai pagar 3%
+               Rendimentos de 3001 até 6000 vai pagar 5%
+               Rendimentos de 6001 até 10000 vai pagar 7%
+               Rendimentos acima de 10000 vai pagar 9%
+            */
+            
+            float imposto;
+            if (rendimento <=3000)
+            {
+                imposto =rendimento * 0.03f;
+                return imposto;
+            }
+            else if (rendimento > 3000 && rendimento <=6000)
+            {
+                imposto = rendimento * 0.05f;
+                return imposto;
+            }
+            else if (rendimento > 6000 && rendimento <=10000)
+            {
+                imposto = rendimento * 0.07f;
+                return imposto;
+            }
+            else 
+            {
+                imposto = rendimento * 0.09f;
+                return imposto;
+            }
         }
 
         public bool ValidarCnpj(string cnpj)
