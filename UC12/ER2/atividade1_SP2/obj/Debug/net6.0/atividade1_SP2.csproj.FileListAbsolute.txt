@@ -1,0 +1,15 @@
+C:\Users\alexs\OneDrive\Área de Trabalho\AulaGit2\PFS_T17\UC12\ER2\atividade1_SP2\bin\Debug\net6.0\atividade1_SP2.exe
+C:\Users\alexs\OneDrive\Área de Trabalho\AulaGit2\PFS_T17\UC12\ER2\atividade1_SP2\bin\Debug\net6.0\atividade1_SP2.deps.json
+C:\Users\alexs\OneDrive\Área de Trabalho\AulaGit2\PFS_T17\UC12\ER2\atividade1_SP2\bin\Debug\net6.0\atividade1_SP2.runtimeconfig.json
+C:\Users\alexs\OneDrive\Área de Trabalho\AulaGit2\PFS_T17\UC12\ER2\atividade1_SP2\bin\Debug\net6.0\atividade1_SP2.dll
+C:\Users\alexs\OneDrive\Área de Trabalho\AulaGit2\PFS_T17\UC12\ER2\atividade1_SP2\bin\Debug\net6.0\atividade1_SP2.pdb
+C:\Users\alexs\OneDrive\Área de Trabalho\AulaGit2\PFS_T17\UC12\ER2\atividade1_SP2\obj\Debug\net6.0\atividade1_SP2.csproj.AssemblyReference.cache
+C:\Users\alexs\OneDrive\Área de Trabalho\AulaGit2\PFS_T17\UC12\ER2\atividade1_SP2\obj\Debug\net6.0\atividade1_SP2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexs\OneDrive\Área de Trabalho\AulaGit2\PFS_T17\UC12\ER2\atividade1_SP2\obj\Debug\net6.0\atividade1_SP2.AssemblyInfoInputs.cache
+C:\Users\alexs\OneDrive\Área de Trabalho\AulaGit2\PFS_T17\UC12\ER2\atividade1_SP2\obj\Debug\net6.0\atividade1_SP2.AssemblyInfo.cs
+C:\Users\alexs\OneDrive\Área de Trabalho\AulaGit2\PFS_T17\UC12\ER2\atividade1_SP2\obj\Debug\net6.0\atividade1_SP2.csproj.CoreCompileInputs.cache
+C:\Users\alexs\OneDrive\Área de Trabalho\AulaGit2\PFS_T17\UC12\ER2\atividade1_SP2\obj\Debug\net6.0\atividade1_SP2.dll
+C:\Users\alexs\OneDrive\Área de Trabalho\AulaGit2\PFS_T17\UC12\ER2\atividade1_SP2\obj\Debug\net6.0\refint\atividade1_SP2.dll
+C:\Users\alexs\OneDrive\Área de Trabalho\AulaGit2\PFS_T17\UC12\ER2\atividade1_SP2\obj\Debug\net6.0\atividade1_SP2.pdb
+C:\Users\alexs\OneDrive\Área de Trabalho\AulaGit2\PFS_T17\UC12\ER2\atividade1_SP2\obj\Debug\net6.0\atividade1_SP2.genruntimeconfig.cache
+C:\Users\alexs\OneDrive\Área de Trabalho\AulaGit2\PFS_T17\UC12\ER2\atividade1_SP2\obj\Debug\net6.0\ref\atividade1_SP2.dll

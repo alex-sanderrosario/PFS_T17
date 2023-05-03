@@ -9,6 +9,8 @@ namespace atividade1_SP2.Classes
 
         public string ?dataNascimento { get; set; }
 
+        public string caminho {get; private set; } = "database/PessoaFisica.csv";
+
     
         public override float PagarImposto(float rendimento)
         {
@@ -69,15 +71,43 @@ namespace atividade1_SP2.Classes
             return false; // não precisa do else pq caso seja verdadeiro o primeiroreturn conclui a sentença
 
             }
-            return false;
-
-            
-           
-           
+            return false;          
         }
 
+        public void Inserir(PessoaFisica pf)
+        {
+             VerificarPastaArquivo(caminho);
 
+            string[] pjString = {$"{pf.nome},{pf.cpf},{pf.dataNascimento},{pf.rendimento},{pf.endereco.logradouro},{pf.endereco.numero},{pf.endereco.complemento},{pf.endereco.endComercial}"};
 
+            File.AppendAllLines(caminho, pjString);
+        }
+
+        public List<PessoaFisica> Ler()
+        {
+            VerificarPastaArquivo(caminho);
+            List<PessoaFisica> listaPf = new List<PessoaFisica>();
+            string[] linhas = File.ReadAllLines(caminho);
+            foreach (string cadaLinha in linhas)
+            {
+                string[] atributos = cadaLinha.Split(",");
+
+                PessoaFisica cadaPf = new PessoaFisica();
+                Endereco cadaEnd = new Endereco();
+
+                cadaPf.nome = atributos[0];
+                cadaPf.cpf = atributos[1];
+                cadaPf.dataNascimento = atributos[2];
+                cadaPf.rendimento = float.Parse(atributos[3]);
+                cadaEnd.logradouro = atributos[4];
+                cadaEnd.numero = int.Parse(atributos[5]);
+                cadaEnd.complemento = atributos[6];
+                cadaEnd.endComercial = bool.Parse(atributos[7]);
+                cadaPf.endereco = cadaEnd;
+                listaPf.Add(cadaPf);
+            }
+            return listaPf;
+        }
    
     }
 }

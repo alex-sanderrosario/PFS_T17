@@ -1,13 +1,17 @@
 using atividade1_SP2.Interfaces;
+using System.Collections.Generic;
 using System.Text.RegularExpressions;
 
 namespace atividade1_SP2.Classes
 {
     public class PessoaJuridica : Pessoa, IPessoaJuridica
     {
+        public string ?razaoSocial { get; set; }
+
         public string ?cnpj { get; set; }
 
-        public string ?razaoSocial { get; set; }
+
+        public string caminho {get; private set;} = "Database/PessoaJuridica.csv";
 
         public override float PagarImposto(float rendimento)
         {
@@ -65,6 +69,44 @@ namespace atividade1_SP2.Classes
 
             return false;
           
+        }
+
+         public void Inserir(PessoaJuridica pj)
+        {
+            VerificarPastaArquivo(caminho);
+
+            string[] pjString = {$"{pj.nome}, {pj.cnpj}, {pj.razaoSocial}"};
+
+            File.AppendAllLines(caminho, pjString);
+        }
+
+          public List<PessoaJuridica> Ler()
+        {
+            List<PessoaJuridica> listaPj = new List<PessoaJuridica>();
+
+            string[] linhas = File.ReadAllLines(caminho);
+
+            foreach (string cadaLinha in linhas)
+            {
+                string[] atributos = cadaLinha.Split(",");
+
+                PessoaJuridica cadaPj = new PessoaJuridica();
+                Endereco cadaEnd = new Endereco();
+                
+                cadaPj.nome = atributos[0];
+                cadaPj.cnpj = atributos[1];
+                cadaPj.razaoSocial = atributos[2];
+                cadaPj.rendimento = float.Parse(atributos[3]);
+                cadaEnd.logradouro = atributos[4];
+                cadaEnd.numero = int.Parse(atributos[5]);
+                cadaEnd.complemento = atributos[6];
+                cadaEnd.endComercial = bool.Parse(atributos[7]);
+                cadaPj.endereco = cadaEnd;
+
+                listaPj.Add(cadaPj);
+            }
+
+            return listaPj;
         }
     }
 }
