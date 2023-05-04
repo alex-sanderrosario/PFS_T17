@@ -100,7 +100,6 @@ namespace atividade1_SP2.Classes
                 cadaEnd.logradouro = atributos[4];
                 cadaEnd.numero = int.Parse(atributos[5]);
                 cadaEnd.complemento = atributos[6];
-                cadaEnd.endComercial = bool.Parse(atributos[7]);
                 cadaPj.endereco = cadaEnd;
 
                 listaPj.Add(cadaPj);

@@ -9,7 +9,7 @@ namespace atividade1_SP2.Classes
 
         public string ?dataNascimento { get; set; }
 
-        public string caminho {get; private set; } = "database/PessoaFisica.csv";
+        public string caminho {get; private set; } = "Database/PessoaFisica.csv";
 
     
         public override float PagarImposto(float rendimento)
