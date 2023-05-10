@@ -1,6 +1,4 @@
-﻿
-using Microsoft.Win32.SafeHandles;
-//using System.Xml.Serialization;
+﻿//using System.Xml.Serialization;
 using atividade1_SP2.Classes;
 
 Console.Clear();
@@ -84,7 +82,7 @@ do
                             }
                             else
                             {
-                                Console.ForegroundColor = ConsoleColor.DarkRed;
+                                Console.ForegroundColor = ConsoleColor.DarkCyan;
                                 Console.WriteLine($"Data digitada é inválida, por favor digite uma data válida");
                                 Console.ResetColor();
                             }
@@ -131,6 +129,7 @@ do
                                 Logradouro: {cadaItem.endereco.logradouro}
                                 Número: {cadaItem.endereco.numero}
                                 Complemento: {cadaItem.endereco.complemento}
+                                Endereço Comercial?:{((cadaItem.endereco.endComercial)?"Sim":"Não")}
                             
                             ");
                             
@@ -195,7 +194,7 @@ do
                                 novaPj.cnpj = cnpj;
                             }
                             else{
-                                Console.ForegroundColor = ConsoleColor.DarkRed;
+                                Console.ForegroundColor = ConsoleColor.DarkCyan;
                                 Console.WriteLine($"Cnpj Inválido, por favor digite um cnpj valido.");
                                 Console.ResetColor();
                                 
@@ -230,7 +229,7 @@ do
                         metodoPj.Inserir(novaPj);
                         break;
                     case "2":
-                        //case de mostrar pessoa juridica
+                
                         List<PessoaJuridica> listaPj = metodoPj.Ler();
 
                         foreach(PessoaJuridica cadaItem in listaPj)
@@ -245,6 +244,7 @@ do
                                 Logradouro: {cadaItem.endereco.logradouro}
                                 Número: {cadaItem.endereco.numero}
                                 Complemento: {cadaItem.endereco.complemento}
+                                Endereço Comercial?:{((cadaItem.endereco.endComercial)?"Sim":"Não")}
                                 
                             ");
                             
@@ -284,8 +284,8 @@ do
 
 
 static void BarraCarregamento(string texto, int tempo){
-    Console.BackgroundColor = ConsoleColor.DarkRed;
-    Console.ForegroundColor = ConsoleColor.Green;
+    Console.BackgroundColor = ConsoleColor.DarkCyan;
+    Console.ForegroundColor = ConsoleColor.Red;
     Console.Write($"{texto}");
 
     for (var contador = 0; contador < 34; contador++)

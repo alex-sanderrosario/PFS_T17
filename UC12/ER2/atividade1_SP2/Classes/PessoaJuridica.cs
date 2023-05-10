@@ -75,17 +75,17 @@ namespace atividade1_SP2.Classes
         {
             VerificarPastaArquivo(caminho);
 
-            string[] pjString = {$"{pj.nome}, {pj.cnpj}, {pj.razaoSocial}"};
+            
+            string[] pjString = {$"{pj.nome},{pj.cnpj},{pj.razaoSocial},{pj.rendimento},{pj.endereco.logradouro},{pj.endereco.numero},{pj.endereco.complemento},{pj.endereco.endComercial}"};
 
             File.AppendAllLines(caminho, pjString);
         }
 
           public List<PessoaJuridica> Ler()
         {
+            VerificarPastaArquivo(caminho);
             List<PessoaJuridica> listaPj = new List<PessoaJuridica>();
-
             string[] linhas = File.ReadAllLines(caminho);
-
             foreach (string cadaLinha in linhas)
             {
                 string[] atributos = cadaLinha.Split(",");
@@ -100,6 +100,7 @@ namespace atividade1_SP2.Classes
                 cadaEnd.logradouro = atributos[4];
                 cadaEnd.numero = int.Parse(atributos[5]);
                 cadaEnd.complemento = atributos[6];
+                cadaEnd.endComercial = bool.Parse(atributos[7]);
                 cadaPj.endereco = cadaEnd;
 
                 listaPj.Add(cadaPj);
