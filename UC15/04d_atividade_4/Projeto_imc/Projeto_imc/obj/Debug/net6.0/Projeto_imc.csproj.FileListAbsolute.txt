@@ -1,0 +1,12 @@
+C:\Users\alexs\OneDrive\Área de Trabalho\AulaGit2\PFS_T17\UC15\04d_atividade_4\Projeto_imc\Projeto_imc\bin\Debug\net6.0\Projeto_imc.deps.json
+C:\Users\alexs\OneDrive\Área de Trabalho\AulaGit2\PFS_T17\UC15\04d_atividade_4\Projeto_imc\Projeto_imc\bin\Debug\net6.0\Projeto_imc.dll
+C:\Users\alexs\OneDrive\Área de Trabalho\AulaGit2\PFS_T17\UC15\04d_atividade_4\Projeto_imc\Projeto_imc\bin\Debug\net6.0\Projeto_imc.pdb
+C:\Users\alexs\OneDrive\Área de Trabalho\AulaGit2\PFS_T17\UC15\04d_atividade_4\Projeto_imc\Projeto_imc\obj\Debug\net6.0\Projeto_imc.csproj.AssemblyReference.cache
+C:\Users\alexs\OneDrive\Área de Trabalho\AulaGit2\PFS_T17\UC15\04d_atividade_4\Projeto_imc\Projeto_imc\obj\Debug\net6.0\Projeto_imc.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexs\OneDrive\Área de Trabalho\AulaGit2\PFS_T17\UC15\04d_atividade_4\Projeto_imc\Projeto_imc\obj\Debug\net6.0\Projeto_imc.AssemblyInfoInputs.cache
+C:\Users\alexs\OneDrive\Área de Trabalho\AulaGit2\PFS_T17\UC15\04d_atividade_4\Projeto_imc\Projeto_imc\obj\Debug\net6.0\Projeto_imc.AssemblyInfo.cs
+C:\Users\alexs\OneDrive\Área de Trabalho\AulaGit2\PFS_T17\UC15\04d_atividade_4\Projeto_imc\Projeto_imc\obj\Debug\net6.0\Projeto_imc.csproj.CoreCompileInputs.cache
+C:\Users\alexs\OneDrive\Área de Trabalho\AulaGit2\PFS_T17\UC15\04d_atividade_4\Projeto_imc\Projeto_imc\obj\Debug\net6.0\Projeto_imc.dll
+C:\Users\alexs\OneDrive\Área de Trabalho\AulaGit2\PFS_T17\UC15\04d_atividade_4\Projeto_imc\Projeto_imc\obj\Debug\net6.0\refint\Projeto_imc.dll
+C:\Users\alexs\OneDrive\Área de Trabalho\AulaGit2\PFS_T17\UC15\04d_atividade_4\Projeto_imc\Projeto_imc\obj\Debug\net6.0\Projeto_imc.pdb
+C:\Users\alexs\OneDrive\Área de Trabalho\AulaGit2\PFS_T17\UC15\04d_atividade_4\Projeto_imc\Projeto_imc\obj\Debug\net6.0\ref\Projeto_imc.dll

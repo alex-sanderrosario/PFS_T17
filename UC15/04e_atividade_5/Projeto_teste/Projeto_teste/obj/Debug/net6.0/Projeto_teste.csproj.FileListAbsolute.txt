@@ -1,0 +1,12 @@
+C:\Users\alexs\OneDrive\Área de Trabalho\AulaGit2\PFS_T17\UC15\04d_atividade_4\Projeto_teste\Projeto_teste\bin\Debug\net6.0\Projeto_teste.deps.json
+C:\Users\alexs\OneDrive\Área de Trabalho\AulaGit2\PFS_T17\UC15\04d_atividade_4\Projeto_teste\Projeto_teste\bin\Debug\net6.0\Projeto_teste.dll
+C:\Users\alexs\OneDrive\Área de Trabalho\AulaGit2\PFS_T17\UC15\04d_atividade_4\Projeto_teste\Projeto_teste\bin\Debug\net6.0\Projeto_teste.pdb
+C:\Users\alexs\OneDrive\Área de Trabalho\AulaGit2\PFS_T17\UC15\04d_atividade_4\Projeto_teste\Projeto_teste\obj\Debug\net6.0\Projeto_teste.csproj.AssemblyReference.cache
+C:\Users\alexs\OneDrive\Área de Trabalho\AulaGit2\PFS_T17\UC15\04d_atividade_4\Projeto_teste\Projeto_teste\obj\Debug\net6.0\Projeto_teste.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexs\OneDrive\Área de Trabalho\AulaGit2\PFS_T17\UC15\04d_atividade_4\Projeto_teste\Projeto_teste\obj\Debug\net6.0\Projeto_teste.AssemblyInfoInputs.cache
+C:\Users\alexs\OneDrive\Área de Trabalho\AulaGit2\PFS_T17\UC15\04d_atividade_4\Projeto_teste\Projeto_teste\obj\Debug\net6.0\Projeto_teste.AssemblyInfo.cs
+C:\Users\alexs\OneDrive\Área de Trabalho\AulaGit2\PFS_T17\UC15\04d_atividade_4\Projeto_teste\Projeto_teste\obj\Debug\net6.0\Projeto_teste.csproj.CoreCompileInputs.cache
+C:\Users\alexs\OneDrive\Área de Trabalho\AulaGit2\PFS_T17\UC15\04d_atividade_4\Projeto_teste\Projeto_teste\obj\Debug\net6.0\Projeto_teste.dll
+C:\Users\alexs\OneDrive\Área de Trabalho\AulaGit2\PFS_T17\UC15\04d_atividade_4\Projeto_teste\Projeto_teste\obj\Debug\net6.0\refint\Projeto_teste.dll
+C:\Users\alexs\OneDrive\Área de Trabalho\AulaGit2\PFS_T17\UC15\04d_atividade_4\Projeto_teste\Projeto_teste\obj\Debug\net6.0\Projeto_teste.pdb
+C:\Users\alexs\OneDrive\Área de Trabalho\AulaGit2\PFS_T17\UC15\04d_atividade_4\Projeto_teste\Projeto_teste\obj\Debug\net6.0\ref\Projeto_teste.dll
